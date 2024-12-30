@@ -1,0 +1,25 @@
+{
+    "schemaVersion": 1,
+    "id": "my-fabric-mod",
+    "version": "${version}",
+    "name": "My Fabric Mod",
+    "description": "A basic Minecraft mod",
+    "authors": [
+        "Your Name"
+    ],
+    "contact": {
+        "homepage": "https://github.com/your-repo",
+        "sources": "https://github.com/your-repo/my-fabric-mod"
+    },
+    "license": "MIT",
+    "icon": "assets/my-fabric-mod/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "main": [
+            "com.example.mymod.MyMod"
+        ]
+    },
+    "depends": {
+        "fabric-api": "*"
+    }
+}
